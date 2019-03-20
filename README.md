@@ -2,11 +2,11 @@
 Recode my process of leetcode programming
 <table>
   <tr>
-    <th width=10%, bgcolor=#F0F8FF>题目</th>
-    <th width=70%, bgcolor=#F0F8FF>题目名称</th>
-    <th width="10%", bgcolor=#F0F8FF>解题地址</th>
-    <th width="10%", bgcolor=#F0F8FF>Difficulty</th>
-    <th width="10%", bgcolor=#F0F8FF>Topics</th>
+    <th width=7%, bgcolor=#F0F8FF>题目</th>
+    <th width=62%, bgcolor=#F0F8FF>题目名称</th>
+    <th width="9%", bgcolor=#F0F8FF>解题地址</th>
+    <th width="7%%", bgcolor=#F0F8FF>Difficulty</th>
+    <th width="15%", bgcolor=#F0F8FF>Topics</th>
   </tr>
   <tr>
     <td bgcolor=#FFFFE0>0001</td>
