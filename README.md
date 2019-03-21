@@ -10,7 +10,7 @@ Recode my process of leetcode programming
   <tr>
     <td bgcolor=#FFFFE0>0001</td>
     <td bgcolor=#FFFFE0><a href="https://leetcode.com/problems/two-sum/">Two Sum</td>
-    <td bgcolor=#FFFFE0><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0001/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0001/Solution.java">Solution.java</td>
     <td bgcolor=#FFFFE0>Easy</td>
   </tr>
    <tr>
