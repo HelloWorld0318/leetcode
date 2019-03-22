@@ -21,7 +21,7 @@ public class SolutionTest {
         node4.next = node5;
 
         Solution solution = new Solution();
-        ListNode head = solution.reverseBetween(node1,2,4);
+        ListNode head = solution.reverseBetween(node1, 2, 4);
 
         while (head != null) {
             System.out.println(head.val);

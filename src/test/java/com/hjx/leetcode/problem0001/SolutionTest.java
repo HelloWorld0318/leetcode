@@ -7,7 +7,7 @@ public class SolutionTest {
     @Test
     public void twoSum() {
         Solution solution = new Solution();
-        int[] result = solution.twoSum(new int[]{2, 7, 11, 15},9);
+        int[] result = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(result);
     }
 }
