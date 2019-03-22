@@ -15,7 +15,7 @@ public class Solution {
             int v2 = l2 == null ? 0 : l2.val;
 
             int sum = v1 + v2 + carry;
-            carry = sum / 10;
+            carry = sum >= 10 ? 1 : 0;
             int v = carry == 0 ? sum : sum - 10;
 
             ListNode node = new ListNode(v);

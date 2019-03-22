@@ -16,7 +16,7 @@ Recode my process of leetcode programming
    <tr>
     <td bgcolor=#FAF0E6>0002</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers</td>
-    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0002/Solution.java</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0002/Solution.java">Solution.java</td>
     <td bgcolor=#FAF0E6>Medium</td>
   </tr>
   <tr>
