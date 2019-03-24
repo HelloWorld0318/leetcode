@@ -53,6 +53,13 @@ Longest Substring Without Repeating Characters</td>
   </tr>
   
   <tr>
+        <td bgcolor=#FAF0E6>0141</td>
+        <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/linked-list-cycle/">Linked List Cycle</td>
+        <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0141/Solution.java">Solution.java</td>
+        <td bgcolor=#FFFFE0>Easy</td>    
+    </tr>
+  
+  <tr>
         <td bgcolor=#FAF0E6>0160</td>
         <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection of Two Linked Lists</td>
         <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0160/Solution.java">Solution.java</td>
