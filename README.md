@@ -58,17 +58,25 @@ Longest Substring Without Repeating Characters</td>
         <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0141/Solution.java">Solution.java</td>
         <td bgcolor=#FFFFE0>Easy</td>    
     </tr>
+    
+  <tr>
+    <td bgcolor=#FAF0E6>0142</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0142/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Medium</td>    
+  </tr>
   
   <tr>
         <td bgcolor=#FAF0E6>0160</td>
         <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection of Two Linked Lists</td>
         <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0160/Solution.java">Solution.java</td>
-        <td bgcolor=#FFFFE0>Medium</td>    
+        <td bgcolor=#FFFFE0>Easy</td>    
   </tr>
+  
   <tr>
      <td bgcolor=#FAF0E6>0206</td>
      <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</td>
      <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0206/Solution.java">Solution.java</td>
-     <td bgcolor=#FFFFE0>Medium</td>    
+     <td bgcolor=#FFFFE0>Easy</td>    
   </tr>
 </table>
