@@ -60,11 +60,18 @@ Longest Substring Without Repeating Characters</td>
   </tr>
   
   <tr>
-        <td bgcolor=#FAF0E6>0141</td>
-        <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/linked-list-cycle/">Linked List Cycle</td>
-        <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0141/Solution.java">Solution.java</td>
-        <td bgcolor=#FFFFE0>Easy</td>    
-    </tr>
+    <td bgcolor=#FAF0E6>0138</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/linked-list-cycle/">Copy List with Random Pointer</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0138/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Medium</td>    
+  </tr>
+  
+  <tr>
+    <td bgcolor=#FAF0E6>0141</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/copy-list-with-random-pointer/">Linked List Cycle</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0141/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Easy</td>    
+  </tr>
     
   <tr>
     <td bgcolor=#FAF0E6>0142</td>
