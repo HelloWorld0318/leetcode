@@ -95,10 +95,10 @@ Longest Substring Without Repeating Characters</td>
   </tr>
   
   <tr>
-        <td bgcolor=#FAF0E6>0160</td>
-        <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection of Two Linked Lists</td>
-        <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0160/Solution.java">Solution.java</td>
-        <td bgcolor=#FFFFE0>Easy</td>    
+    <td bgcolor=#FAF0E6>0160</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection of Two Linked Lists</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0160/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Easy</td>    
   </tr>
   
   <tr>
@@ -108,6 +108,13 @@ Longest Substring Without Repeating Characters</td>
      <td bgcolor=#FFFFE0>Easy</td>    
   </tr>
   
+  <tr>
+    <td bgcolor=#FAF0E6>0225</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/implement-stack-using-queues/">Implement Stack using Queues</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0225/MyStack.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Easy</td>
+  </tr>
+    
   <tr>
     <td bgcolor=#FAF0E6>0232</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/implement-queue-using-stacks/">Implement Queue using Stacks</td>
