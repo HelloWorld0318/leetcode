@@ -111,7 +111,7 @@ Longest Substring Without Repeating Characters</td>
   <tr>
     <td bgcolor=#FAF0E6>0232</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/implement-queue-using-stacks/">Implement Queue using Stacks</td>
-    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0232/Solution.java">Solution.java</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0232/MyQueue.java">Solution.java</td>
     <td bgcolor=#FFFFE0>Easy</td>
   </tr>
   
