@@ -3,6 +3,7 @@ package com.hjx.leetcode.problem0002;
 import com.hjx.leetcode.entity.ListNode;
 
 public class Solution {
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
             return null;
