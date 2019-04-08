@@ -1,9 +1,8 @@
 package com.hjx.leetcode.proleam0092;
 
 import com.hjx.leetcode.entity.ListNode;
+import com.hjx.leetcode.problem0092.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 
