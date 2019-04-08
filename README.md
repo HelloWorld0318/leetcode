@@ -143,4 +143,11 @@ Longest Substring Without Repeating Characters</td>
     <td bgcolor=#FFFFE0>Easy</td>
   </tr>
   
+  <tr>
+      <td bgcolor=#FAF0E6>0295</td>
+      <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/find-median-from-data-stream/">Find Median from Data Stream</td>
+      <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0295/MedianFinder.java">MedianFinder.java</td>
+      <td bgcolor=#FFFFE0>Hard</td>
+  </tr>
+  
 </table>
