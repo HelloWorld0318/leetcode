@@ -60,6 +60,13 @@ Longest Substring Without Repeating Characters</td>
   </tr>
   
   <tr>
+       <td bgcolor=#FAF0E6>0058</td>
+       <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/length-of-last-word/">Length of Last Word</td>
+       <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0058/Solution.java">Solution.java</td>
+       <td bgcolor=#FFFFE0>Easy</td>
+    </tr>
+    
+  <tr>
     <td bgcolor=#FAF0E6>0086</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/partition-list/">Partition List</td>
     <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0086/Solution.java">Solution.java</td>
@@ -124,7 +131,7 @@ Longest Substring Without Repeating Characters</td>
   
   <tr>
       <td bgcolor=#FAF0E6>0167</td>
-      <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Intersection of Two Linked Lists</td>
+      <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Two Sum II - Input array is sorted</td>
       <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0167/Solution.java">Solution.java</td>
       <td bgcolor=#FFFFE0>Easy</td>    
     </tr>
