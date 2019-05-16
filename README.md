@@ -193,6 +193,13 @@ Longest Substring Without Repeating Characters</td>
   </tr>
   
   <tr>
+    <td bgcolor=#FAF0E6>0321</td>
+    <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/create-maximum-number/">Create Maximum Number</td>
+    <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0321/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0>Hard</td>
+  </tr>
+  
+  <tr>
     <td bgcolor=#FAF0E6>0402</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/remove-k-digits/">Remove K Digits</td>
     <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0402/Solution.java">Solution.java</td>
