@@ -210,7 +210,7 @@ Longest Substring Without Repeating Characters</td>
         <td bgcolor=#FAF0E6>0455</td>
         <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/assign-cookies/">Assign Cookies</td>
         <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0455/Solution.java">Solution.java</td>
-        <td bgcolor=#FFFFE0>Hard</td>
+        <td bgcolor=#FFFFE0>Easy</td>
     </tr>
     
    <tr>
