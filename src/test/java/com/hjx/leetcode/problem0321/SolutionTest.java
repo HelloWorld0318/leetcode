@@ -4,17 +4,17 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     @Test
-    public void maxNumber() {
+    public void maxArray() {
         Solution solution = new Solution();
-        int[] nums1 = {3, 4, 6, 5};
-        int[] nums2 = {9, 1, 2, 5, 8, 3};
-        int k = 5;
+        // output [9, 8, 6, 5, 3]
+        int[] nums1 = {3, 4};
+        int[] nums2 = {};
+        int k = 2;
         int[] result = solution.maxNumber(nums1, nums2, k);
         Arrays.stream(result).forEach(System.out::print);
+        System.out.println();
     }
 }
