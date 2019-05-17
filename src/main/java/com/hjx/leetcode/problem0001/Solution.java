@@ -11,7 +11,7 @@ public class Solution {
         }
 
         int mapSize = nums.length;
-        Map<Integer, Integer> value2Index = new HashMap(mapSize);
+        Map<Integer, Integer> value2Index = new HashMap((int) (mapSize / 0.75 + 1));
 
         for (int i = 0; i < nums.length; i++) {
             if (value2Index.containsKey(nums[i])) {
