@@ -19,7 +19,7 @@ public class Solution {
             }
             value2Index.put(target - nums[i], i);
         }
-        return null;
+        return new int[0];
     }
 
 }
