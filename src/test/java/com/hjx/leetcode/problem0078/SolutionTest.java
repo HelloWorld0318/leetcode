@@ -12,7 +12,7 @@ public class SolutionTest {
     public void subsets() {
         Solution solution = new Solution();
         int[] nums = {1, 2, 3};
-        List<List<Integer>> ans = solution.subsets(nums);
+        List<List<Integer>> ans = solution.subsets2(nums);
         System.out.println(ans);
     }
 }

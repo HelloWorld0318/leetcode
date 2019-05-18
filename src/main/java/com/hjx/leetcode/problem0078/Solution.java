@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>((int) Math.pow(2, nums.length));
+    public List<List<Integer>> subsets1(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>(1 << nums.length);
         // 将空集放入结果集当中
         ans.add(new ArrayList<>());
         if (nums.length != 0) {
@@ -25,5 +25,21 @@ public class Solution {
         // 不放元素
         temp.remove(temp.size() - 1);
         dfs(nums, index + 1, temp, ans);
+    }
+
+    public List<List<Integer>> subsets2(int[] nums) {
+        // 采用位运算
+        int allSetsCount = 1 << nums.length;
+        List<List<Integer>> result = new ArrayList<>();
+        for (int i = 0; i < allSetsCount; i++) {
+            List<Integer> item = new ArrayList<>();
+            for (int j = 0; j < nums.length; j++) {
+                if ((i & 1 << j) != 0) {
+                    item.add(nums[j]);
+                }
+            }
+            result.add(item);
+        }
+        return result;
     }
 }
