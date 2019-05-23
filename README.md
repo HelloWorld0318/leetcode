@@ -25,9 +25,8 @@ Recode my process of leetcode programming
   
   <tr>
     <td bgcolor=#FFFFE0>0003</td>
-    <td bgcolor=#FFFFE0><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">	
-Longest Substring Without Repeating Characters</td>
-    <td bgcolor=#FFFFE0><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0003/Solution.java">Solution.java</td>
+    <td bgcolor=#FFFFE0><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</td>
+    <td bgcolor=#FFFFE0><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0003/Solution.java">Solution.java</td>
     <td bgcolor=#FFFFE0>Medium</td>
   </tr>
   
