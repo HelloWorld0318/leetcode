@@ -11,7 +11,7 @@ public class SolutionTest {
     @Test
     public void permute() {
         Solution solution = new Solution();
-        int[] nums = {1,2,3};
+        int[] nums = {1, 2, 3, 4};
         List<List<Integer>> ans = solution.permute(nums);
         System.out.println(ans);
     }
