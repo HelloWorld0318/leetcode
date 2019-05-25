@@ -2,7 +2,24 @@ package com.hjx.leetcode.problem0029;
 
 public class Solution {
     public int divide(int dividend, int divisor) {
-        // TODO problem29
-        return 0;
+        long result = divideLong(dividend, divisor);
+        return result > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) result;
+    }
+
+    public long divideLong(long dividend, long divisor) {
+        boolean negative = dividend < 0 != divisor < 0;
+        dividend = dividend < 0 ? -dividend : dividend;
+        divisor = divisor < 0 ? -divisor : divisor;
+        if (dividend < divisor) {
+            return 0;
+        }
+        long sum = divisor;
+        long divide = 1;
+        while ((sum + sum) <= dividend) {
+            sum += sum;
+            divide += divide;
+        }
+        return negative ? -(divide + divideLong(dividend - sum, divisor))
+                : (divide + divideLong(dividend - sum, divisor));
     }
 }
