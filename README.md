@@ -78,6 +78,13 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0029/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0030</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/">Substring with Concatenation of All Words</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0030/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Hard</td>
+</tr>
   
 <tr>
 <td bgcolor=#FAF0E6>0039</td>
