@@ -192,6 +192,13 @@ Recode my process of leetcode programming
   </tr>
   
 <tr>
+<td bgcolor=#FAF0E6>0120</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/triangle/">Triangle</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0120/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>  
+  
+<tr>
 <td bgcolor=#FAF0E6>0127</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/word-ladder/">Word Ladder</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0127/Solution.java">Solution.java</td>
