@@ -2,6 +2,7 @@ package com.hjx.leetcode.problem0064;
 
 public class Solution {
     public int minPathSum(int[][] grid) {
+        // 动态规划 dp[i][j] = min{dp[i-1][j],dp[i][j-1]} + grid[i][j]
         if (grid == null || grid.length == 0) {
             return 0;
         }
