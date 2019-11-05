@@ -317,6 +317,13 @@ Recode my process of leetcode programming
       <td bgcolor=#FFFFE0>Hard</td>
   </tr>
   
+<tr>
+<td bgcolor=#FAF0E6>0322</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/coin-change/">Coin Change</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0322/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>  
+
   <tr>
     <td bgcolor=#FAF0E6>0321</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/create-maximum-number/">Create Maximum Number</td>
