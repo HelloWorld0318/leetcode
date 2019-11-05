@@ -11,12 +11,10 @@ public class SolutionTest {
     @Test
     public void minimumTotal() {
         Solution solution = new Solution();
-        List<List<Integer>> triangle = Lists.newArrayList(Lists.newArrayList(2),
-                Lists.newArrayList(3, 4),
-                Lists.newArrayList(6, 7, 8),
-                Lists.newArrayList(4, 1, 8, 3));
-
-        int result = 11;
+        List<List<Integer>> triangle = Lists.newArrayList(Lists.newArrayList(-1),
+                Lists.newArrayList(3, 2),
+                Lists.newArrayList(-3, 1, -1));
+        int result = -1;
         Assert.assertEquals(result, solution.minimumTotal(triangle));
     }
 }
