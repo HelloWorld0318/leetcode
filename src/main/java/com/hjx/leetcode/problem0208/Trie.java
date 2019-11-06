@@ -5,7 +5,7 @@ public class Trie {
      * Initialize your data structure here.
      */
     public Trie() {
-
+        // TODO hjx 字典树
     }
 
     /**
