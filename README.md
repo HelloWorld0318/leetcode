@@ -94,6 +94,13 @@ Recode my process of leetcode programming
 </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0040</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/combination-sum-ii/">Combination Sum II</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0040/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0046</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/combination-sum/">Permutations</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0046/Solution.java">Solution.java</td>
@@ -107,12 +114,7 @@ Recode my process of leetcode programming
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
   
-<tr>
-<td bgcolor=#FAF0E6>0040</td>
-<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/combination-sum-ii/">Combination Sum II</td>
-<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0040/Solution.java">Solution.java</td>
-<td bgcolor=#FFFFE0>Medium</td>
-</tr>
+
 
 <tr>
 <td bgcolor=#FAF0E6>0051</td>
@@ -141,6 +143,13 @@ Recode my process of leetcode programming
        <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0058/Solution.java">Solution.java</td>
        <td bgcolor=#FFFFE0>Easy</td>
     </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0062</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/unique-paths/">Unique Paths</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0062/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
 
 <tr>
 <td bgcolor=#FAF0E6>0064</td>
