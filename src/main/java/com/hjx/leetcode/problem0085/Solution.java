@@ -4,6 +4,9 @@ import java.util.Stack;
 
 public class Solution {
     public int maximalRectangle(char[][] matrix) {
+        // 这道题的二维矩阵每一层向上都可以看做一个直方图，
+        // 输入矩阵有多少行，就可以形成多少个直方图，对每个直方图都调用 Largest Rectangle in Histogram 中的方法，
+        // 就可以得到最大的矩形面积。
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return 0;
         }
