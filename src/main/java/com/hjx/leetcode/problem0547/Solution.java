@@ -4,15 +4,6 @@ public class Solution {
 
     public int findCircleNum(int[][] M) {
         int count = 0;
-        if (M != null && M.length != 0) {
-            int[] visited = new int[M.length];
-            for (int i = 0; i < visited.length; i++) {
-                if (visited[i] == 0) {
-                    dfs(M, visited, i);
-                    count++;
-                }
-            }
-        }
         return count;
     }
 
@@ -23,5 +14,19 @@ public class Solution {
                 dfs(M, visit, i);
             }
         }
+    }
+
+    public int findCircleNumDfsMethod(int[][] M) {
+        int count = 0;
+        if (M != null && M.length != 0) {
+            int[] visited = new int[M.length];
+            for (int i = 0; i < visited.length; i++) {
+                if (visited[i] == 0) {
+                    dfs(M, visited, i);
+                    count++;
+                }
+            }
+        }
+        return count;
     }
 }
