@@ -247,7 +247,14 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/word-ladder/">Word Ladder</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0127/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>    
-</tr>  
+</tr> 
+
+<tr>
+<td bgcolor=#FAF0E6>0128</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0128/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Hard</td>
+</tr> 
 
   <tr>
       <td bgcolor=#FAF0E6>0134</td>
