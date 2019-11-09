@@ -3,8 +3,16 @@ package com.hjx.leetcode.problem0547;
 public class Solution {
 
     public int findCircleNum(int[][] M) {
-        int count = 0;
-        return count;
+        DisjointSet disjointSet = new DisjointSet(M.length);
+        // 使用并查集的方法实现
+        for (int i = 0; i < M.length; i++) {
+            for (int j = 0; j < M.length; j++) {
+                if (M[i][j] == 1) {
+                    disjointSet.union(i, j);
+                }
+            }
+        }
+        return disjointSet.getCount();
     }
 
     private void dfs(int[][] M, int[] visit, int number) {

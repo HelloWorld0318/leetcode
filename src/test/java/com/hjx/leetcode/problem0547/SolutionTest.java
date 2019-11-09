@@ -24,11 +24,11 @@ public class SolutionTest {
         Solution solution = new Solution();
         int[][] M = {
                 {1, 1, 0},
-                {1, 1, 0},
-                {0, 0, 1}
+                {1, 1, 1},
+                {0, 1, 1}
         };
         int result = solution.findCircleNum(M);
-        Assert.assertEquals(2, result);
+        Assert.assertEquals(1, result);
     }
 
 }
