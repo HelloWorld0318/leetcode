@@ -4,22 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
-
     public int[] twoSum(int[] nums, int target) {
-        if (nums == null) {
-            return nums;
-        }
-
-        int mapSize = nums.length;
-        Map<Integer, Integer> value2Index = new HashMap((int) (mapSize / 0.75 + 1));
-
-        for (int i = 0; i < nums.length; i++) {
-            if (value2Index.containsKey(nums[i])) {
-                return new int[]{value2Index.get(nums[i]), i};
+        if (nums != null || nums.length > 0) {
+            Map<Integer, Integer> value2Index = new HashMap((int) (nums.length / 0.75));
+            for (int i = 0; i < nums.length; i++) {
+                if (value2Index.containsKey(target - nums[i])) {
+                    return new int[]{value2Index.get(target - nums[i]), i};
+                }
+                value2Index.put(nums[i], i);
             }
-            value2Index.put(target - nums[i], i);
         }
-        return new int[0];
+        return null;
     }
-
 }
