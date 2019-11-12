@@ -23,9 +23,8 @@ public class SolutionTest {
 
         node5.right = node6;
 
-        TreeNode root = node1;
         solution.flattenMethod1(node1);
-        System.out.println(root.val);
+        System.out.println();
     }
 
     @Test
@@ -37,6 +36,7 @@ public class SolutionTest {
         TreeNode node4 = new TreeNode(4);
         TreeNode node5 = new TreeNode(5);
         TreeNode node6 = new TreeNode(6);
+        TreeNode node7 = new TreeNode(7);
 
         node1.left = node2;
         node1.right = node5;
@@ -45,6 +45,7 @@ public class SolutionTest {
         node2.right = node4;
 
         node5.right = node6;
+        node5.left = node7;
 
         TreeNode root = node1;
         solution.flatten(node1);
