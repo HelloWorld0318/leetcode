@@ -374,6 +374,13 @@ Recode my process of leetcode programming
        <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0215/Solution.java">Solution.java</td>
        <td bgcolor=#FFFFE0>Medium</td>    
     </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0222</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/count-complete-tree-nodes/">Count Complete Tree Nodes</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0222/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>    
+</tr>
   
   <tr>
      <td bgcolor=#FAF0E6>0224</td>
