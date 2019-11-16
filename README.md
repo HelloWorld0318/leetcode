@@ -255,6 +255,21 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0114/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0116</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node/">Populating Next Right Pointers in Each Node</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0116/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>    
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0117</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/">Populating Next Right Pointers in Each Node II</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0117/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
   
 <tr>
 <td bgcolor=#FAF0E6>0120</td>
