@@ -9,6 +9,7 @@ public class Solution {
     }
 
     public TreeNode sortedArrayToBST(int start, int end, int[] nums) {
+        // 自顶向下的方法构造二叉树
         if (start == end) {
             TreeNode treeNode = new TreeNode(nums[start]);
             return treeNode;

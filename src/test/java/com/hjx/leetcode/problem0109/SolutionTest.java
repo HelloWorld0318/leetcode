@@ -31,7 +31,7 @@ public class SolutionTest {
             return;
         }
         inOrder(treeNode.left);
-        System.out.println(treeNode.left);
+        System.out.println(treeNode.val);
         inOrder(treeNode.right);
     }
 }
