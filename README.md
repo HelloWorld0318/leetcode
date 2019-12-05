@@ -544,6 +544,13 @@ Recode my process of leetcode programming
     </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0538</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/convert-bst-to-greater-tree/">Convert BST to Greater Tree</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0538/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Easy</td>
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0547</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/friend-circles/">Friend Circles</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0547/Solution.java">Solution.java</td>
