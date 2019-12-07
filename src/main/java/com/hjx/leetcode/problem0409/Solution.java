@@ -8,8 +8,6 @@ public class Solution {
         if (s == null || s.length() == 0) {
             return 0;
         }
-
-
         Map<Character, Integer> char2Count = new HashMap<>((int) (s.length() / 0.75));
         for (char ch : s.toCharArray()) {
             if (char2Count.containsKey(ch)) {
