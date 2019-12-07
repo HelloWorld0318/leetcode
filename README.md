@@ -513,7 +513,14 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/longest-increasing-subsequence/">Longest Increasing Subsequence</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0300/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
-</tr>  
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0315</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/count-of-smaller-numbers-after-self/">Count of Smaller Numbers After Self</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0315/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Hard</td>
+</tr>
   
 <tr>
 <td bgcolor=#FAF0E6>0322</td>
