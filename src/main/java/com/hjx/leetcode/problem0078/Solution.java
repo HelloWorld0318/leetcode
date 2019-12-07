@@ -28,18 +28,19 @@ public class Solution {
     }
 
     public List<List<Integer>> subsets2(int[] nums) {
-        // 采用位运算
-        int allSetsCount = 1 << nums.length;
-        List<List<Integer>> result = new ArrayList<>();
-        for (int i = 0; i < allSetsCount; i++) {
-            List<Integer> item = new ArrayList<>();
-            for (int j = 0; j < nums.length; j++) {
-                if ((i & 1 << j) != 0) {
-                    item.add(nums[j]);
+        List<List<Integer>> ans = new ArrayList<>();
+        if (nums != null && nums.length > 0) {
+            int allSetsCount = 1 << nums.length;
+            for (int i = 0; i < allSetsCount; i++) {
+                List<Integer> list = new ArrayList<>();
+                for (int j = 0; j < nums.length; j++) {
+                    if ((i & (1 << j)) != 0) {
+                        list.add(nums[j]);
+                    }
                 }
+                ans.add(list);
             }
-            result.add(item);
         }
-        return result;
+        return ans;
     }
 }
