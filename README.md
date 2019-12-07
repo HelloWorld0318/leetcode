@@ -518,7 +518,7 @@ Recode my process of leetcode programming
 <tr>
 <td bgcolor=#FAF0E6>0260</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/single-number-iii/">Single Number III</td>
-<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem01230/Solution.java">Solution.java</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0260/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
 
