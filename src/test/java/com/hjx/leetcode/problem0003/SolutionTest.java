@@ -10,7 +10,7 @@ public class SolutionTest {
     @Test
     public void lengthOfLongestSubstring() {
         Solution solution = new Solution();
-        String str = "ww";
+        String str = "abcdadab";
         int ans = solution.lengthOfLongestSubstring(str);
         Assert.assertEquals(1, ans);
     }
