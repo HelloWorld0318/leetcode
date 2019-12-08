@@ -430,6 +430,13 @@ Recode my process of leetcode programming
 </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0187</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/repeated-dna-sequences/">Repeated DNA Sequences</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0187/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0198</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/house-robber/">House Robber</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0198/Solution.java">Solution.java</td>
