@@ -8,17 +8,18 @@ public class Solution {
     /**
      * 上，下，左，右
      */
-    private static final int[] dx = {0, 0, -1, 1};
-    private static final int[] dy = {-1, 1, 0, 0};
+    private static final int[] dx = {-1, +1, 0, 0};
+    private static final int[] dy = {0, 0, -1, +1};
 
     public int numIslands(char[][] grid) {
         int numOfLands = 0;
-        if (grid != null && grid.length > 0 && grid[0].length > 0) {
+        if (grid != null && grid.length > 0) {
             int[][] mark = new int[grid.length][grid[0].length];
             for (int i = 0; i < grid.length; i++) {
                 for (int j = 0; j < grid[0].length; j++) {
+                    // 是陆地且没有访问过
                     if (grid[i][j] == '1' && mark[i][j] == 0) {
-                        dfs(grid, mark, i, j);
+                        bfs(grid, mark, i, j);
                         numOfLands++;
                     }
                 }
@@ -28,12 +29,12 @@ public class Solution {
     }
 
     public void dfs(char[][] grid, int[][] mark, int x, int y) {
-        // 深度优先搜索
         mark[x][y] = 1;
         for (int i = 0; i < 4; i++) {
             int newX = x + dx[i];
             int newY = y + dy[i];
-            if (newX >= 0 && newX < mark.length && newY >= 0 && newY < mark[newX].length) {
+            if (newX >= 0 && newX < grid.length && newY >= 0 && newY < grid[0].length) {
+                // 是陆地且没有访问过
                 if (mark[newX][newY] == 0 && grid[newX][newY] == '1') {
                     dfs(grid, mark, newX, newY);
                 }
@@ -42,18 +43,18 @@ public class Solution {
     }
 
     public void bfs(char[][] grid, int[][] mark, int x, int y) {
-        // 宽度优先搜索队列
+        mark[x][y] = 1;
         Queue<Pair> queue = new LinkedList<>();
         queue.offer(new Pair(x, y));
-        mark[x][y] = 1;
         while (!queue.isEmpty()) {
-            x = queue.peek().x;
-            y = queue.peek().y;
-            queue.poll();
+            Pair pair = queue.poll();
+            int row = pair.x;
+            int column = pair.y;
             for (int i = 0; i < 4; i++) {
-                int newX = x + dx[i];
-                int newY = y + dy[i];
-                if (newX >= 0 && newX < mark.length && newY >= 0 && newY < mark[newX].length) {
+                int newX = row + dx[i];
+                int newY = column + dy[i];
+                if (newX >= 0 && newX < grid.length && newY >= 0 && newY < grid[0].length) {
+                    // 是陆地且没有访问过
                     if (mark[newX][newY] == 0 && grid[newX][newY] == '1') {
                         queue.offer(new Pair(newX, newY));
                         mark[newX][newY] = 1;
@@ -67,7 +68,7 @@ public class Solution {
         int x;
         int y;
 
-        Pair(int x, int y) {
+        public Pair(int x, int y) {
             this.x = x;
             this.y = y;
         }

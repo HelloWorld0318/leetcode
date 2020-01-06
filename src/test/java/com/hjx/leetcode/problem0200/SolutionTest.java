@@ -14,14 +14,14 @@ public class SolutionTest {
                 {'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},
                 {'1', '1', '0', '0', '0'},
-                {'0', '0', '0', '0', '0'}
+                {'0', '0', '1', '0', '1'}
         };
 
         char[][] grid2 = {
-                {'1'}, {1}
+                {'1'}, {'1'}
         };
 
-        int ans = solution.numIslands(grid2);
-        Assert.assertEquals(1, ans);
+        int ans = solution.numIslands(grid1);
+        Assert.assertEquals(3, ans);
     }
 }
