@@ -16,6 +16,6 @@ public class SolutionTest {
         String endWord = "cog";
         List<String> wordList = Lists.newArrayList("hot", "dot", "dog", "lot", "log");
         Solution solution = new Solution();
-        Assert.assertEquals(0, solution.ladderLength(beginWord, endWord, wordList));
+        Assert.assertEquals(5, solution.ladderLength(beginWord, endWord, wordList));
     }
 }

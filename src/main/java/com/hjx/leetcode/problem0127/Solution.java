@@ -16,49 +16,49 @@ public class Solution {
         return bfsGraph(beginWord, endWord, graph);
     }
 
-    private int bfsGraph(String beginWord, String endWord, Map<String, List<String>> graph) {
-        Queue<Pair> searchQueue = new LinkedList<>();
+    public int bfsGraph(String beginWord, String endWord, Map<String, List<String>> graph) {
         Set<String> hasVisitedWord = new HashSet<>();
-        searchQueue.offer(new Pair(beginWord, 1));
+        Queue<Pair> queue = new LinkedList<>();
         hasVisitedWord.add(beginWord);
-
-        while (!searchQueue.isEmpty()) {
-            String word = searchQueue.peek().word;
-            int step = searchQueue.poll().step;
+        queue.offer(new Pair(beginWord, 1));
+        while (!queue.isEmpty()) {
+            Pair pair = queue.poll();
+            String word = pair.word;
+            int step = pair.step;
             hasVisitedWord.add(word);
-            if (word.equals(endWord)) {
+            if (endWord.equals(word)) {
                 return step;
             }
-
             List<String> neighbors = graph.getOrDefault(word, new ArrayList<>());
             for (int i = 0; i < neighbors.size(); i++) {
                 if (!hasVisitedWord.contains(neighbors.get(i))) {
-                    searchQueue.offer(new Pair(neighbors.get(i), step + 1));
+                    queue.offer(new Pair(neighbors.get(i), step + 1));
                 }
             }
         }
         return 0;
     }
 
-    private void constructGraph(String beginWord, List<String> wordList, Map<String, List<String>> graph) {
-        // 使用邻接表表示图
+    public void constructGraph(String beginWord, List<String> wordList, Map<String, List<String>> graph) {
+        // 构造用临接表表示的图结构
         wordList.add(beginWord);
-        for (int i = 0; i < wordList.size(); i++) {
-            for (int j = i + 1; j < wordList.size(); j++) {
-                if (connnect(wordList.get(i), wordList.get(j))) {
-                    List<String> listI = graph.getOrDefault(wordList.get(i), new ArrayList<>());
-                    listI.add(wordList.get(j));
-                    graph.put(wordList.get(i), listI);
+        int size = wordList.size();
+        for (int i = 0; i < size; i++) {
+            for (int j = i + 1; j < size; j++) {
+                if (isConnection(wordList.get(i), wordList.get(j))) {
+                    List<String> list1 = graph.getOrDefault(wordList.get(i), new ArrayList<>());
+                    list1.add(wordList.get(j));
+                    graph.put(wordList.get(i), list1);
 
-                    List<String> listJ = graph.getOrDefault(wordList.get(j), new ArrayList<>());
-                    listJ.add(wordList.get(i));
-                    graph.put(wordList.get(j), listJ);
+                    List<String> list2 = graph.getOrDefault(wordList.get(j), new ArrayList<>());
+                    list2.add(wordList.get(i));
+                    graph.put(wordList.get(j), list2);
                 }
             }
         }
     }
 
-    private boolean connnect(String word1, String word2) {
+    public boolean isConnection(String word1, String word2) {
         int differentCharCount = 0;
         int length = word1.length();
         for (int i = 0; i < length; i++) {
@@ -70,10 +70,10 @@ public class Solution {
     }
 
     class Pair {
-        String word;
-        int step;
+        public String word;
+        public int step;
 
-        Pair(String word, int step) {
+        public Pair(String word, int step) {
             this.step = step;
             this.word = word;
         }
