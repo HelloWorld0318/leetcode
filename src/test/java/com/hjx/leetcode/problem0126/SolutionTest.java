@@ -12,9 +12,9 @@ public class SolutionTest {
     @Test
     public void findLadders() {
         Solution solution = new Solution();
-        String beginWord = "hit";
-        String endWord = "cog";
-        List<String> wordList = Lists.newArrayList("hot","dot","dog","lot","log","cog");
-        System.out.println(solution.findLadders(beginWord,endWord,wordList));
+        String beginWord = "hot";
+        String endWord = "dog";
+        List<String> wordList = Lists.newArrayList("hot", "dog");
+        System.out.println(solution.findLadders(beginWord, endWord, wordList));
     }
 }
