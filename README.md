@@ -617,6 +617,13 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0468/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0473</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/matchsticks-to-square/">Matchsticks to Square</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0473/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>    
+</tr>
     
    <tr>
         <td bgcolor=#FAF0E6>0502</td>
