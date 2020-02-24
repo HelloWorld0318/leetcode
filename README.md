@@ -483,7 +483,14 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0208/Trie.java">Trie.java</td>
 <td bgcolor=#FFFFE0>Medium</td>    
-</tr>  
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0211</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/add-and-search-word-data-structure-design/">Add and Search Word - Data structure design</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0211/WordDictionary.java">Trie.java</td>
+<td bgcolor=#FFFFE0>Medium</td>    
+</tr>
   
   <tr>
        <td bgcolor=#FAF0E6>0215</td>
