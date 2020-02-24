@@ -488,7 +488,7 @@ Recode my process of leetcode programming
 <tr>
 <td bgcolor=#FAF0E6>0211</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/add-and-search-word-data-structure-design/">Add and Search Word - Data structure design</td>
-<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0211/WordDictionary.java">Trie.java</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0211/WordDictionary.java">WordDictionary.java</td>
 <td bgcolor=#FFFFE0>Medium</td>    
 </tr>
   
