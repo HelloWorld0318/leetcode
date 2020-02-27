@@ -577,6 +577,13 @@ Recode my process of leetcode programming
 </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0307</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/range-sum-query-mutable/">Range Sum Query - Mutable</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0307/NumArray.java">NumArray.java</td>
+<td bgcolor=#FFFFE0>Medium</td>    
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0315</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/count-of-smaller-numbers-after-self/">Count of Smaller Numbers After Self</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0315/Solution.java">Solution.java</td>
