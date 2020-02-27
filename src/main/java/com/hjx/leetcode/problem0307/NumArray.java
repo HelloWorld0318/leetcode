@@ -26,6 +26,7 @@ public class NumArray {
             return;
         }
         this.nums = nums;
+        // 一般线段树数组大小是原始数组大小长度的4倍
         value = new int[nums.length * 4];
         buildSegmentTree(0, 0, nums.length - 1);
         rightEnd = nums.length - 1;
