@@ -54,12 +54,14 @@ public class WordDictionary {
             return root.isEnd;
         }
         if (word.charAt(0) == '.') {
+            // 遍历当前节点的所有孩子
             for (int i = 0; i < TRIE_MAX_CHAR_NUM; i++) {
                 if (root.child[i] != null && search(root.child[i], word.substring(1))) {
                     return true;
                 }
             }
         } else {
+            // 遍历当前节点指定的节点
             int index = word.charAt(0) - 'a';
             if (root.child[index] != null && search(root.child[index], word.substring(1))) {
                 return true;
