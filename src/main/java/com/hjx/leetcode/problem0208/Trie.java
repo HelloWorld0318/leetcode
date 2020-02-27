@@ -45,7 +45,7 @@ public class Trie {
             }
             return cur.isEnd;
         }
-        return false;
+        return true;
     }
 
     /**
@@ -64,7 +64,7 @@ public class Trie {
             }
             return true;
         }
-        return false;
+        return true;
     }
 
     class TrieNode {
