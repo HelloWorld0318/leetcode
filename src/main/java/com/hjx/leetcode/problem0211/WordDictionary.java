@@ -46,7 +46,7 @@ public class WordDictionary {
         if (word != null && word.length() > 0) {
             return search(root, word);
         }
-        return false;
+        return true;
     }
 
     private boolean search(TrieNode root, String word) {
