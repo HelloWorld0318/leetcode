@@ -1,5 +1,5 @@
 package com.hjx.leetcode.tree.segment;
 
 /**
- * 线段树的实现
+ * 点线段树的实现
  */

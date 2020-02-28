@@ -1,6 +1,6 @@
 package com.hjx.leetcode.problem0547;
 
-public class DisjointSet {
+class  DisjointSet {
 
     private int[] ids;
 
@@ -35,6 +35,7 @@ public class DisjointSet {
             return;
         }
         if (size[i] < size[j]) {
+            // 规模小的向规模大的合并
             size[j] += size[i];
             ids[i] = ids[j];
         } else {

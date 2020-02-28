@@ -15,10 +15,10 @@ public class Solution {
         return disjointSet.getCount();
     }
 
-    private void dfs(int[][] M, int[] visit, int number) {
-        visit[number] = 1;
-        for (int i = 0; i < M[number].length; i++) {
-            if (M[number][i] == 1 && visit[i] == 0) {
+    private void dfs(int[][] M, int[] visit, int index) {
+        visit[index] = 1;
+        for (int i = 0; i < M[index].length; i++) {
+            if (M[index][i] == 1 && visit[i] == 0) {
                 dfs(M, visit, i);
             }
         }
