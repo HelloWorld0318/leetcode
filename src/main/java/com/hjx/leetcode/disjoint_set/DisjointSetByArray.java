@@ -25,7 +25,7 @@ public class DisjointSetByArray {
     }
 
     void union(int p, int q) {
-        // 负责度为O(n)
+        // 时间复杂度为O(n)
         int pid = find(p);
         int qid = find(q);
         if (pid == qid) {
