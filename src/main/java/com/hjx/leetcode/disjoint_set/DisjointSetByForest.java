@@ -12,7 +12,7 @@ public class DisjointSetByForest {
 
     private int[] size;
 
-    private Integer count;
+    private int count;
 
     public DisjointSetByForest(int n) {
         count = n;
@@ -62,18 +62,21 @@ public class DisjointSetByForest {
 
         disjointSet.union(0, 5);
         System.out.println(Arrays.toString(disjointSet.ids));
+        // [0, 1, 2, 3, 4, 0, 6, 7]
         System.out.println("------------------------------");
 
-        disjointSet.union(5, 2);
+        disjointSet.union(2, 4);
         System.out.println(Arrays.toString(disjointSet.ids));
+        // [0, 1, 2, 3, 2, 0, 6, 7]
         System.out.println("------------------------------");
 
-        disjointSet.union(2, 5);
+        disjointSet.union(0, 4);
         System.out.println(Arrays.toString(disjointSet.ids));
+        // [0, 1, 0, 3, 2, 0, 6, 7]
         System.out.println("------------------------------");
 
-        disjointSet.union(2,3);
-        System.out.println(Arrays.toString(disjointSet.ids));
-        System.out.println("------------------------------");
+        // 5
+        System.out.println(disjointSet.count);
+
     }
 }
