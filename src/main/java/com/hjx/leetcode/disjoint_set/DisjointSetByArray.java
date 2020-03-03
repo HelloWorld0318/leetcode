@@ -8,6 +8,9 @@ import java.util.Arrays;
  */
 public class DisjointSetByArray {
 
+    /**
+     * 数组的下标表示他是第几个元素，数组里面的元素表示下标i(元素i)属于哪一个集合
+     */
     private int ids[];
 
     public DisjointSetByArray(int n) {
@@ -34,6 +37,7 @@ public class DisjointSetByArray {
         }
         for (int i = 0; i < ids.length; i++) {
             if (ids[i] == pid) {
+                // 将所有属于pid集合的全部改为qid对应的集合
                 ids[i] = qid;
             }
         }

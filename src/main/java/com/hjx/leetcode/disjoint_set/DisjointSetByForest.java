@@ -61,19 +61,19 @@ public class DisjointSetByForest {
         DisjointSetByForest disjointSet = new DisjointSetByForest(elementCount);
 
         disjointSet.union(0, 5);
-        // [5, 1, 2, 3, 4, 5, 6, 7]
         System.out.println(Arrays.toString(disjointSet.ids));
+        System.out.println("------------------------------");
 
+        disjointSet.union(5, 2);
+        System.out.println(Arrays.toString(disjointSet.ids));
         System.out.println("------------------------------");
+
         disjointSet.union(2, 5);
         System.out.println(Arrays.toString(disjointSet.ids));
-        // [5, 1, 5, 3, 4, 5, 6, 7]
         System.out.println("------------------------------");
-        disjointSet.union(2, 5);
+
+        disjointSet.union(2,3);
         System.out.println(Arrays.toString(disjointSet.ids));
-        // [5, 1, 5, 3, 4, 5, 6, 7]
         System.out.println("------------------------------");
-        System.out.println(Arrays.toString(disjointSet.ids));
-        // [5, 1, 5, 5, 4, 5, 6, 7]
     }
 }
