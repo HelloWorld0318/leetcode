@@ -2,35 +2,37 @@ package com.hjx.leetcode.problem0023;
 
 import com.hjx.leetcode.entity.ListNode;
 
-import java.util.Arrays;
-
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
         }
-        if (lists.length == 1) {
-            return lists[0];
-        }
-
-        ListNode node1 = mergeKLists(Arrays.copyOfRange(lists, 0, lists.length / 2));
-        ListNode node2 = mergeKLists(Arrays.copyOfRange(lists, lists.length / 2, lists.length));
-
-        return mergeList(node1, node2);
+        return mergeKLists(lists, 0, lists.length - 1);
     }
 
-    private ListNode mergeList(ListNode l1, ListNode l2) {
+    public ListNode mergeKLists(ListNode[] lists, int start, int end) {
+        if (start == end) {
+            return lists[start];
+        }
+        int mid = (start + end) / 2;
+        ListNode left = mergeKLists(lists, start, mid);
+        ListNode right = mergeKLists(lists, mid + 1, end);
+        return mergeTwoList(left, right);
+    }
+
+    public ListNode mergeTwoList(ListNode headA, ListNode headB) {
         ListNode dummy = new ListNode(-1);
-        ListNode cur = dummy;
-        while (l1 != null || l2 != null) {
-            if (l1 == null || (l2 != null && l2.val < l1.val)) {
-                cur.next = l2;
-                l2 = l2.next;
+        ListNode node = dummy;
+
+        while (headA != null || headB != null) {
+            if (headA == null || (headB != null && headB.val < headA.val)) {
+                node.next = headB;
+                headB = headB.next;
             } else {
-                cur.next = l1;
-                l1 = l1.next;
+                node.next = headA;
+                headA = headA.next;
             }
-            cur = cur.next;
+            node = node.next;
         }
         return dummy.next;
     }
