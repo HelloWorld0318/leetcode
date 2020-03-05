@@ -73,6 +73,13 @@ Recode my process of leetcode programming
   </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0026</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0026/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Easy</td>
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0029</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/divide-two-integers/">Divide Two Integers</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0029/Solution.java">Solution.java</td>
