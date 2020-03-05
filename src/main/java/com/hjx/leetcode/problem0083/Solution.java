@@ -1,4 +1,4 @@
-package com.hjx.leetcode.problem0082;
+package com.hjx.leetcode.problem0083;
 
 import com.hjx.leetcode.entity.ListNode;
 
