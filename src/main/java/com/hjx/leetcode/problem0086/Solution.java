@@ -4,23 +4,27 @@ import com.hjx.leetcode.entity.ListNode;
 
 public class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode dummyA = new ListNode(-1);
-        ListNode curA = dummyA;
-        ListNode dummyB = new ListNode(-1);
-        ListNode curB = dummyB;
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode lessNode = new ListNode(-1);
+        ListNode lessPtr = lessNode;
+        ListNode moreNode = new ListNode(-1);
+        ListNode morePtr = moreNode;
 
         while (head != null) {
             if (head.val < x) {
-                curA.next = head;
-                curA = curA.next;
+                lessPtr.next = head;
+                lessPtr = lessPtr.next;
             } else {
-                curB.next = head;
-                curB = curB.next;
+                morePtr.next = head;
+                morePtr = morePtr.next;
             }
             head = head.next;
         }
-        curB.next = null;
-        curA.next = dummyB.next;
-        return dummyA.next;
+
+        morePtr.next = null;
+        lessPtr.next = moreNode.next;
+        return lessNode.next;
     }
 }
