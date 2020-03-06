@@ -224,6 +224,13 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/subsets/">Subsets</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0078/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0080</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/">Remove Duplicates from Sorted Array II</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0080/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
 </tr>     
 
 <tr>
