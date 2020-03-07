@@ -29,14 +29,15 @@ public class DisjointSet {
     public void union(int k, int j) {
         int value1 = findSet(k);
         int value2 = findSet(j);
-        if (value1 != value2) {
-            if (size[value1] > size[value2]) {
-                ids[value2] = ids[value1];
-                size[value1] += size[value2];
-            } else {
-                ids[value1] = ids[value2];
-                size[value2] += size[value1];
-            }
+        if (value1 == value2) {
+            return;
+        }
+        if (size[value1] > size[value2]) {
+            ids[value2] = ids[value1];
+            size[value1] += size[value2];
+        } else {
+            ids[value1] = ids[value2];
+            size[value2] += size[value1];
         }
         count--;
     }
