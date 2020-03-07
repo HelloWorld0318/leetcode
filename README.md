@@ -58,6 +58,13 @@ Recode my process of leetcode programming
       <td bgcolor=#FFFFE0>Medium</td>
     </tr>
     
+<tr>
+<td bgcolor=#FAF0E6>0018</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/4sum/submissions/">4Sum</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0018/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+    
   <tr>
     <td bgcolor=#FAF0E6>0021</td>
     <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</td>
