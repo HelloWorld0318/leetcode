@@ -36,6 +36,13 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/tree/master/leetcode/src/problem0004/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Hard</td>    
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0015</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/3sum/">3Sum</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0015/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
   
   <tr>
       <td bgcolor=#FAF0E6>0017</td>
