@@ -122,6 +122,13 @@ Recode my process of leetcode programming
 </tr>
 
 <tr>
+<td bgcolor=#FAF0E6>0031</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/next-permutation/">Next Permutation</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0031/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
 <td bgcolor=#FAF0E6>0034</td>
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/">Find First and Last Position of Element in Sorted Array</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0034/Solution.java">Solution.java</td>
