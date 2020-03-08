@@ -190,6 +190,14 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0047/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0048</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/rotate-image/">Rotate Image
+</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0048/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
   
 <tr>
 <td bgcolor=#FAF0E6>0049</td>
