@@ -253,6 +253,13 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/minimum-path-sum/">Minimum Path Sum</td>
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0064/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0066</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/plus-one/">Plus One</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0066/Solution.java">Solution.java</td>
+<td bgcolor=#FFFFE0>Easy</td>
 </tr>  
       
   <tr>
