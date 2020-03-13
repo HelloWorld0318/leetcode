@@ -507,12 +507,19 @@ Recode my process of leetcode programming
     <td bgcolor=#FFFFE0>Medium</td>    
   </tr>
   
-  <tr>
-      <td bgcolor=#FAF0E6>0155</td>
-      <td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/min-stack/">Min Stack</td>
-      <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0155/MinStack.java">MinStack.java</td>
-      <td bgcolor=#FFFFE0>Easy</td>    
-    </tr>
+<tr>
+<td bgcolor=#FAF0E6>0146</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/lru-cache/">LRU Cache</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0146/LRUCache.java">LRUCache.java</td>
+<td bgcolor=#FFFFE0>Medium</td>
+</tr>
+
+<tr>
+<td bgcolor=#FAF0E6>0155</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/min-stack/">Min Stack</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem0155/MinStack.java">MinStack.java</td>
+<td bgcolor=#FFFFE0>Easy</td>    
+</tr>
     
   <tr>
     <td bgcolor=#FAF0E6>0160</td>
