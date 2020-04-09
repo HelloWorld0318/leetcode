@@ -786,5 +786,12 @@ Recode my process of leetcode programming
 <td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem1109/Solution.java">Solution.java</td>
 <td bgcolor=#FFFFE0>Medium</td>
 </tr>
+
+<tr>
+<td bgcolor=#FAF0E6>1114</td>
+<td bgcolor=#FAF0E6><a href="https://leetcode.com/problems/print-in-order/">Print in Order</td>
+<td bgcolor=#FAF0E6><a href="https://github.com/HelloWorld0318/leetcode/blob/master/src/main/java/com/hjx/leetcode/problem1114/Foo.java">Foo.java</td>
+<td bgcolor=#FFFFE0>Easy</td>
+</tr>
   
 </table>
