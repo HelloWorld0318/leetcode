@@ -1,5 +1,6 @@
 package com.hjx.leetcode.rpc;
 
+
 public class Provider {
 
     public static void main(String[] args) throws Exception {
