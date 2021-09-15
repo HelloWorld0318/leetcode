@@ -34,3 +34,5 @@ logs
 pid.txt
 
 **/out
+
+**/.DS_Store
