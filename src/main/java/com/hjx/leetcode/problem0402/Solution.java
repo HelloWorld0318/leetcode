@@ -8,6 +8,9 @@ public class Solution {
         char[] array = num.toCharArray();
         for (int i = 0; i < array.length; i++) {
             // greedy method
+
+            //如果遍历的数字大于栈顶元素，则将该数字push入栈。
+            //如果小于栈顶元素则进行pop弹栈，直到栈为空或不能再删除数字（k==0）
             while (!stack.isEmpty() && stack.peek() > array[i] && k-- > 0) {
                 stack.pop();
             }
