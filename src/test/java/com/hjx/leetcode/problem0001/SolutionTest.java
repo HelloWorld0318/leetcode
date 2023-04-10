@@ -11,5 +11,6 @@ public class SolutionTest {
         Solution solution = new Solution();
         int[] result = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
         Arrays.stream(result).forEach(System.out::println);
+        System.out.println("你好");
     }
 }
