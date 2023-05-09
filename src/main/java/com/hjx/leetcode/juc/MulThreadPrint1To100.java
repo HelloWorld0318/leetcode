@@ -1,5 +1,9 @@
 package com.hjx.leetcode.juc;
 
+/**
+ * @author houjinxiang
+ * 多线程循环打印1到100
+ */
 public class MulThreadPrint1To100 {
 
     private volatile int i = 0;
