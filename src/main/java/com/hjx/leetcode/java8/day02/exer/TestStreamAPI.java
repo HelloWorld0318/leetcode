@@ -1,7 +1,7 @@
 package com.hjx.leetcode.java8.day02.exer;
 
 import com.hjx.leetcode.java8.day02.java8.Employee;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;

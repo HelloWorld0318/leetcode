@@ -1,6 +1,6 @@
 package com.hjx.leetcode.java8.day01.java8;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Comparator;
