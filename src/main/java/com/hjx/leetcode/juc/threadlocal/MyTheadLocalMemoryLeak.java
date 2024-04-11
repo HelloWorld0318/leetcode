@@ -28,19 +28,5 @@ public class MyTheadLocalMemoryLeak {
         }
         System.out.println(local);
         System.out.println(local.get());
-
-
-        System.out.println("-----------------------------");
-
-        for (int i = 0; i < SIZE; i++) {
-            int finalI = i;
-            executor.execute(() -> {
-//                local.set(new Stu());
-                System.out.println("开始执行" + finalI + "-" + local.get());
-                //添加remove不会造成内存泄漏
-            });
-            Thread.sleep(100);
-        }
-
     }
 }
