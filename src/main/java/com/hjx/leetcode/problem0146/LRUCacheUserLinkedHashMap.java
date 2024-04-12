@@ -13,6 +13,7 @@ public class LRUCacheUserLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
     private int capacity;
 
     public LRUCacheUserLinkedHashMap(int capacity) {
+        super(capacity, 0.75f, true);
         this.capacity = capacity;
     }
 
