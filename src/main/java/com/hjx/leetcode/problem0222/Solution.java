@@ -26,7 +26,7 @@ public class Solution {
         preOrder(root.right);
     }
 
-    public int countNodesTteration(TreeNode root) {
+    public int countNodesIteration(TreeNode root) {
         if (root == null) {
             return 0;
         }
