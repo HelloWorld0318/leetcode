@@ -1,6 +1,9 @@
 package com.hjx.leetcode.problem0001;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,5 +22,36 @@ public class Solution {
             value2Index.put(nums[i], i);
         }
         return null;
+    }
+
+    public List<List<Integer>> twoSumTarget(int[] nums, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || nums.length == 0) {
+            return res;
+        }
+        Arrays.sort(nums);
+        int left = 0, right = nums.length - 1;
+        while (left < right) {
+            int sum = nums[left] + nums[right];
+            int leftVal = nums[left], rightVal = nums[right];
+            if (sum < target) {
+                while (left < right && nums[left] == leftVal) {
+                    left++;
+                }
+            } else if (sum > target) {
+                while (left < right && nums[right] == rightVal) {
+                    right--;
+                }
+            } else {
+                res.add(new ArrayList<>(Arrays.asList(nums[left], nums[right])));
+                while (left < right && nums[left] == leftVal) {
+                    left++;
+                }
+                while (left < right && nums[right] == rightVal) {
+                    right--;
+                }
+            }
+        }
+        return res;
     }
 }
