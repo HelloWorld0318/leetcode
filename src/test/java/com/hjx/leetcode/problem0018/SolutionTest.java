@@ -13,4 +13,12 @@ public class SolutionTest {
         int target = 0;
         System.out.println(solution.fourSum(nums, target));
     }
+
+    @Test
+    public void fourSum2() {
+        Solution solution = new Solution();
+        int[] nums = {1000000000,1000000000,1000000000,1000000000};
+        int target = -294967296;
+        System.out.println(solution.fourSum2(nums, target));
+    }
 }
