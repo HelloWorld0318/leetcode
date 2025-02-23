@@ -13,5 +13,14 @@ public class SolutionTest {
         int ans = solution.characterReplacement(str, k);
         System.out.println(ans);
         Assert.assertEquals(ans, 4);
+
+
+    }
+
+    @Test
+    public void test() {
+        String s = "/home//foo/";
+        String[] a = s.split("/");
+        System.out.println(a);
     }
 }

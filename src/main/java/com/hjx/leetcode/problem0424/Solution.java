@@ -20,11 +20,15 @@ public class Solution {
         //记录窗口中出现做多的字符的个数
         int maxCount = 0;
 
+        String windowsStr = "";
+
         while (right < s.length()) {
             char ch = s.charAt(right);
             right++;
+            windowsStr = s.substring(left,right);
             windows.put(ch, windows.getOrDefault(ch, 0) + 1);
             maxCount = Math.max(maxCount, windows.get(ch));
+
 
             while (right - left - maxCount > k) {
                 //杂牌字符数量 right - left - windowMaxCount 多于 k
@@ -32,6 +36,7 @@ public class Solution {
                 //必须缩小窗口
                 char deleteChar = s.charAt(left);
                 left++;
+                windowsStr = s.substring(left,right);
                 windows.put(deleteChar, windows.get(deleteChar) - 1);
             }
             /*
