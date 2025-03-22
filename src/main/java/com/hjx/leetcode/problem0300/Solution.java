@@ -20,4 +20,34 @@ public class Solution {
         }
         return maxLength;
     }
+
+    public int lengthOfLIS2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int[] top = new int[nums.length];
+        // 牌堆数初始化为 0
+        int piles = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int porker = nums[i];
+            int left = 0;
+            int right = piles;
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                if (top[mid] > porker) {
+                    right = mid;
+                } else if (top[mid] == porker) {
+                    right = mid;
+                } else if (top[mid] < porker) {
+                    left = mid + 1;
+                }
+            }
+            if (left == piles) {
+                piles++;
+            }
+            top[left] = porker;
+        }
+        //top数组从0到piles就是最大递增子序列
+        return piles;
+    }
 }
