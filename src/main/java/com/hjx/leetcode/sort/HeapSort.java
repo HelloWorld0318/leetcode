@@ -7,8 +7,9 @@ public class HeapSort {
         int heapSize = nums.length;
 
         while (heapSize > 1) {
-            nums[0] = (nums[0] + nums[heapSize - 1]) - (nums[heapSize - 1] = nums[0]);
-            modifyMaxHeap(nums, 0, --heapSize);
+            swap(nums, 0, heapSize - 1);
+            heapSize--;
+            modifyMaxHeap(nums, 0, heapSize);
         }
     }
 
@@ -30,8 +31,14 @@ public class HeapSort {
             maxValueIndex = rightIndex;
         }
         if (maxValueIndex != index) {
-            nums[maxValueIndex] = (nums[maxValueIndex] + nums[index]) - (nums[index] = nums[maxValueIndex]);
+            swap(nums, maxValueIndex, index);
             modifyMaxHeap(nums, maxValueIndex, heapSize);
         }
+    }
+
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

@@ -12,10 +12,10 @@ public class QuickSort {
         for (int i = start; i < end; i++) {
             if (nums[i] < key) {
                 index++;
-                nums[index] = (nums[i] + nums[index]) - (nums[i] = nums[index]);
+                swap(nums, index, i);
             }
         }
-        nums[index + 1] = nums[index + 1] + nums[end] - (nums[end] = nums[index + 1]);
+        swap(nums, index + 1, end);
         return index + 1;
     }
 
@@ -31,5 +31,11 @@ public class QuickSort {
             quickSort(array, start, partitionIndex - 1);
             quickSort(array, partitionIndex + 1, end);
         }
+    }
+
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

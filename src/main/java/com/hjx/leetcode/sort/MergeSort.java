@@ -9,9 +9,9 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int[] a = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
-        printArray("排序前：", a);
+        printArray("before:", a);
         MergeSort(a);
-        printArray("排序后：", a);
+        printArray("after:", a);
     }
 
     private static void printArray(String pre, int[] a) {
