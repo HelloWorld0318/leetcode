@@ -15,6 +15,7 @@ public class Solution {
         return isFound;
     }
 
+    //现在给你一个不包含重复单词的单词列表 wordDict 和一个字符串 s，请你判断是否可以从 wordDict 中选出若干单词的排列（可以重复挑选）构成字符串 s。s
     private void backTrack(String s, int i) {
         if (i == s.length()) {
             this.isFound = true;
