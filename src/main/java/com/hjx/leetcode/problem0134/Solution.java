@@ -36,4 +36,24 @@ public class Solution {
         }
         return total < 0 ? -1 : result + 1;
     }
+
+    public int canCompleteCircuit2(int[] gas, int[] cost) {
+        //暴力解法，每个起点我都试一遍
+        for (int i = 0; i < gas.length; i++) {
+            int remainingGas = 0;
+            int step = 0;
+            for (; step < gas.length; step++) {
+                int curIndex = (i + step) % gas.length;
+                remainingGas += gas[curIndex];
+                remainingGas -= cost[curIndex];
+                if (remainingGas < 0) {
+                    break;
+                }
+            }
+            if (step == gas.length) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
