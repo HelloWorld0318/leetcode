@@ -3,11 +3,17 @@ package com.hjx.leetcode.data.structure.array;
 import java.util.NoSuchElementException;
 
 public class MyArrayList<E> {
-    // 真正存储数据的底层数组
+    /**
+     * 真正存储数据的底层数组
+     */
     private E[] data;
-    // 记录当前元素个数
+    /**
+     * 记录当前元素个数
+     */
     private int size;
-    // 默认初始容量
+    /**
+     * 默认初始容量
+     */
     private static final int INIT_CAP = 1;
 
     public MyArrayList() {
@@ -19,7 +25,11 @@ public class MyArrayList<E> {
         size = 0;
     }
 
-    // 增
+    /**
+     * 增
+     *
+     * @param e
+     */
     public void addLast(E e) {
         int cap = data.length;
         // 看 data 数组容量够不够
@@ -53,7 +63,11 @@ public class MyArrayList<E> {
         add(0, e);
     }
 
-    // 删
+    /**
+     * 删
+     *
+     * @return
+     */
     public E removeLast() {
         if (size == 0) {
             throw new NoSuchElementException();
@@ -93,14 +107,25 @@ public class MyArrayList<E> {
         return remove(0);
     }
 
-    // 查
+    /**
+     * 查
+     *
+     * @param index
+     * @return
+     */
     public E get(int index) {
         // 检查索引越界
         checkElementIndex(index);
         return data[index];
     }
 
-    // 改
+    /**
+     * 改
+     *
+     * @param index
+     * @param element
+     * @return
+     */
     public E set(int index, E element) {
         // 检查索引越界
         checkElementIndex(index);
@@ -110,7 +135,11 @@ public class MyArrayList<E> {
         return oldVal;
     }
 
-    // 工具方法
+    /**
+     * 工具方法
+     *
+     * @return
+     */
     public int size() {
         return size;
     }
@@ -119,7 +148,11 @@ public class MyArrayList<E> {
         return size == 0;
     }
 
-    // 将 data 的容量改为 newCap
+    /**
+     * 将 data 的容量改为 newCap
+     *
+     * @param newCap
+     */
     private void resize(int newCap) {
         E[] temp = (E[]) new Object[newCap];
         for (int i = 0; i < size; i++) {
@@ -136,14 +169,22 @@ public class MyArrayList<E> {
         return index >= 0 && index <= size;
     }
 
-    // 检查 index 索引位置是否可以存在元素
+    /**
+     * 检查 index 索引位置是否可以存在元素
+     *
+     * @param index
+     */
     private void checkElementIndex(int index) {
         if (!isElementIndex(index)) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
     }
 
-    // 检查 index 索引位置是否可以添加元素
+    /**
+     * 检查 index 索引位置是否可以添加元素
+     *
+     * @param index
+     */
     private void checkPositionIndex(int index) {
         if (!isPositionIndex(index)) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
