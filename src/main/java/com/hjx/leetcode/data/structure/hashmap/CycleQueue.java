@@ -1,4 +1,4 @@
-package com.hjx.leetcode.hashmap;
+package com.hjx.leetcode.data.structure.hashmap;
 
 public class CycleQueue<T> {
 

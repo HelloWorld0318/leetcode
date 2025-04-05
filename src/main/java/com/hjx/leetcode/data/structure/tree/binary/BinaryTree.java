@@ -1,4 +1,4 @@
-package com.hjx.leetcode.tree.binary;
+package com.hjx.leetcode.data.structure.tree.binary;
 
 import com.hjx.leetcode.entity.TreeNode;
 

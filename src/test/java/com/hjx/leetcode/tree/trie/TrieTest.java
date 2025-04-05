@@ -1,11 +1,10 @@
 package com.hjx.leetcode.tree.trie;
 
-        import com.google.common.collect.Lists;
-        import org.junit.Test;
+import com.google.common.collect.Lists;
+import com.hjx.leetcode.data.structure.tree.trie.Trie;
+import org.junit.Test;
 
-        import java.util.List;
-
-        import static org.junit.Assert.*;
+import java.util.List;
 
 public class TrieTest {
 

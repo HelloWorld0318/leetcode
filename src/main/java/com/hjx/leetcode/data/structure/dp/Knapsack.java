@@ -1,4 +1,4 @@
-package com.hjx.leetcode.dp;
+package com.hjx.leetcode.data.structure.dp;
 
 /**
  * 解决0-1背包问题

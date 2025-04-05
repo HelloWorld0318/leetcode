@@ -1,4 +1,4 @@
-package com.hjx.leetcode.tree.trie;
+package com.hjx.leetcode.data.structure.tree.trie;
 
 import java.util.List;
 import java.util.Map;

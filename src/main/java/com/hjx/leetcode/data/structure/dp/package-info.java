@@ -1,4 +1,4 @@
-package com.hjx.leetcode.dp;
+package com.hjx.leetcode.data.structure.dp;
 
 /**
  * 这个包里面的代码主要包含了一些动态规划的题目。包括：《算法导论》里面的三道例题等其他例题

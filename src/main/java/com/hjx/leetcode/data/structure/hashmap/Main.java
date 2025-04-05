@@ -1,4 +1,4 @@
-package com.hjx.leetcode.hashmap;
+package com.hjx.leetcode.data.structure.hashmap;
 
 import java.util.HashMap;
 

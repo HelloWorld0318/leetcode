@@ -1,4 +1,4 @@
-package com.hjx.leetcode.disjoint_set;
+package com.hjx.leetcode.data.structure.disjoint_set;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.hjx.leetcode.tree.segment;
+package com.hjx.leetcode.data.structure.tree.segment;
 
 /**
  * @author houjinxiang
