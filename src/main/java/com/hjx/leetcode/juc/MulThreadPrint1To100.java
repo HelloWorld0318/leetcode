@@ -1,5 +1,9 @@
 package com.hjx.leetcode.juc;
 
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author houjinxiang
  * 多线程循环打印1到100
@@ -11,9 +15,15 @@ public class MulThreadPrint1To100 {
 
     public static void main(String[] args) {
         MulThreadPrint1To100 test = new MulThreadPrint1To100();
-        new Thread(test.new Thread1()).start();
-        new Thread(test.new Thread2()).start();
-        new Thread(test.new Thread3()).start();
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(1, 1, 5, TimeUnit.SECONDS, new LinkedBlockingDeque<>());
+        Runnable r1 = test.new Thread1();
+        Runnable r2 = test.new Thread2();
+        Runnable r3 = test.new Thread3();
+        executor.execute(r1);
+        executor.execute(r2);
+        executor.execute(r3);
+        System.out.println("hello");
+        executor.shutdown();
     }
 
     class Thread1 implements Runnable {
