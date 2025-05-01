@@ -5,30 +5,12 @@ import java.util.List;
 
 public class MyChainingHashMap<K, V> {
 
-    // 哈希表的底层数组，每个数组元素是一个链表，链表中每个节点是 KVNode 存储键值对
-    private LinkedList<KVNode<K, V>>[] table;
-
-    // 哈希表中存入的键值对个数
-    private int size;
-    // 底层数组的初始容量
-    private static final int INIT_CAP = 4;
-
-    public MyChainingHashMap() {
-        this(INIT_CAP);
-    }
-
-    public MyChainingHashMap(int initCapacity) {
-        size = 0;
-        // 保证底层数组的容量至少为 1，因为 hash 函数中有求余运算，避免出现除以 0 的情况
-        initCapacity = Math.max(initCapacity, 1);
-        // 初始化哈希表
-        table = (LinkedList<KVNode<K, V>>[]) new LinkedList[initCapacity];
-        for (int i = 0; i < table.length; i++) {
-            table[i] = new LinkedList<>();
-        }
-    }
-
-    // 拉链法使用的单链表节点，存储 key-value 对
+    /**
+     * 拉链法使用的单链表节点，存储 key-value 对
+     *
+     * @param <K> key
+     * @param <V> value
+     */
     private static class KVNode<K, V> {
         K key;
         V value;
@@ -41,9 +23,37 @@ public class MyChainingHashMap<K, V> {
         }
     }
 
+    /**
+     * 哈希表的底层数组，每个数组元素是一个链表，链表中每个节点是 KVNode 存储键值对
+     */
+    private LinkedList<KVNode<K, V>>[] table;
+
+    /**
+     * 哈希表中存入的键值对个数
+     */
+    private int size;
+
+    /**
+     * 底层数组的初始容量
+     */
+    private static final int INIT_CAP = 4;
+
+    public MyChainingHashMap() {
+        this(INIT_CAP);
+    }
+
+    public MyChainingHashMap(int initCapacity) {
+        size = 0;
+        //保证底层数组的容量至少为 1，因为 hash 函数中有求余运算，避免出现除以 0 的情况
+        initCapacity = Math.max(initCapacity, 1);
+        // 初始化哈希表
+        table = (LinkedList<KVNode<K, V>>[]) new LinkedList[initCapacity];
+        for (int i = 0; i < table.length; i++) {
+            table[i] = new LinkedList<>();
+        }
+    }
 
     // **** 增/改 ****
-
     // 添加 key -> val 键值对
     // 如果键 key 已存在，则将值修改为 val
     public void put(K key, V val) {
@@ -69,7 +79,6 @@ public class MyChainingHashMap<K, V> {
     }
 
     // **** 删 ****
-
     // 删除 key 和对应的 val
     public void remove(K key) {
         if (key == null) {
@@ -92,7 +101,6 @@ public class MyChainingHashMap<K, V> {
     }
 
     // **** 查 ****
-
     // 返回 key 对应的 val，如果 key 不存在，则返回 null
     public V get(K key) {
         if (key == null) {
@@ -118,13 +126,12 @@ public class MyChainingHashMap<K, V> {
         return keys;
     }
 
-    // **** 其他工具函数 ****
-
+    //**** 其他工具函数 ****
     public int size() {
         return size;
     }
 
-    // 哈希函数，将键映射到 table 的索引
+    //哈希函数，将键映射到 table 的索引
     private int hash(K key) {
         return (key.hashCode() & 0x7fffffff) % table.length;
     }
