@@ -1,11 +1,10 @@
 package com.hjx.leetcode.data.structure.linklist;
 
+import java.util.NoSuchElementException;
+
 /**
  * @author houjinxiang
  */
-
-import java.util.NoSuchElementException;
-
 public class MyLinkedList<E> {
     /**
      * 虚拟头尾节点
@@ -32,8 +31,8 @@ public class MyLinkedList<E> {
         }
     }
 
-    // 构造函数初始化虚拟头尾节点
     public MyLinkedList() {
+        // 构造函数初始化虚拟头尾节点
         this.dummyHead = new Node<>(null);
         this.dummyTail = new Node<>(null);
         dummyHead.next = dummyTail;
@@ -41,8 +40,11 @@ public class MyLinkedList<E> {
         this.size = 0;
     }
 
-
-    // ***** 增 *****
+    /**
+     * 增
+     *
+     * @param e 新增的元素e
+     */
     public void addLast(E e) {
         Node<E> x = new Node<>(e);
         Node<E> temp = dummyTail.prev;
@@ -56,6 +58,11 @@ public class MyLinkedList<E> {
         size++;
     }
 
+    /**
+     * 添加元素到首位置
+     *
+     * @param e 新增的元素e
+     */
     public void addFirst(E e) {
         Node<E> x = new Node<>(e);
         Node<E> temp = dummyHead.next;
@@ -69,6 +76,12 @@ public class MyLinkedList<E> {
         size++;
     }
 
+    /**
+     * 在索引位置index处添加元素element
+     *
+     * @param index   索引index
+     * @param element 添加的元素element
+     */
     public void add(int index, E element) {
         checkPositionIndex(index);
         if (index == size) {
@@ -90,12 +103,16 @@ public class MyLinkedList<E> {
         size++;
     }
 
-    // ***** 删 *****
+    /**
+     * 删除首位的元素
+     *
+     * @return 首位的元素E
+     */
     public E removeFirst() {
         if (size < 1) {
             throw new NoSuchElementException();
         }
-        // 虚拟节点的存在是我们不用考虑空指针的问题
+        //虚拟节点的存在使我们不用考虑空指针的问题
         Node<E> x = dummyHead.next;
         Node<E> temp = x.next;
         // head <-> x <-> temp
@@ -150,7 +167,12 @@ public class MyLinkedList<E> {
         return val;
     }
 
-    // ***** 查 *****
+    /**
+     * 查索引为值index处的值
+     *
+     * @param index 索引index
+     * @return
+     */
     public E get(int index) {
         checkElementIndex(index);
         // 找到 index 对应的 Node
@@ -172,7 +194,13 @@ public class MyLinkedList<E> {
         return dummyTail.prev.val;
     }
 
-    // ***** 改 *****
+    /**
+     * 修改索引位置index的值
+     *
+     * @param index 索引index
+     * @param val   新的值
+     * @return 旧的值
+     */
     public E set(int index, E val) {
         checkElementIndex(index);
         // 找到 index 对应的 Node
@@ -209,14 +237,22 @@ public class MyLinkedList<E> {
         return index >= 0 && index <= size;
     }
 
-    // 检查 index 索引位置是否可以存在元素
+    /**
+     * 检查 index 索引位置是否可以存在元素
+     *
+     * @param index 索引index
+     */
     private void checkElementIndex(int index) {
         if (!isElementIndex(index)) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
     }
 
-    // 检查 index 索引位置是否可以添加元素
+    /**
+     * 检查 index 索引位置是否可以添加元素
+     *
+     * @param index 索引index
+     */
     private void checkPositionIndex(int index) {
         if (!isPositionIndex(index)) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
