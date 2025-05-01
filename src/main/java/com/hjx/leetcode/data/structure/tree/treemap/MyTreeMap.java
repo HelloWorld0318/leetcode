@@ -1,4 +1,4 @@
-package com.hjx.leetcode.data.structure.treemap;
+package com.hjx.leetcode.data.structure.tree.treemap;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
